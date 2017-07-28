@@ -40,6 +40,7 @@ After choosing whether to load the trial data you will be at the main menu with 
 10. Quit
 
 Things to try:
+
 All of the following are using the trial data.
 
 Try adding another person named "John Black" using option 1.
@@ -52,3 +53,13 @@ Use option 4 to see his telephone number.
 Use option 3 to create a group with "John Black" and some other people of your choice from option 8's output
 
 Use option 9 to search for a John try "John Boulder", "John Denver Email" etc. it is case sensitive, also the weighting is heavily name skewed and it is intentionally limited to 3 results.
+
+System Requirements:
+
+Should work on all systems file reading may get screwy across systems. Developed and tested on Windows 10.
+
+Developed By:
+Ryan Murphy 
+
+Open Bugs:
+Occasionally loses its data pointer especially if numerous data points are added to a node, I think this has something to do with the stack not compensating correctly for the expansion of the node in memory as the linked list gets bigger. I believe i have it corrected.
